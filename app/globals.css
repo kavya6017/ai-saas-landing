@@ -11,6 +11,26 @@
   --oceanic-noir: #172B36;
 }
 
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.entrance {
+  animation: fadeUp 400ms ease-out forwards;
+}
+
+.entrance-delay-1 {
+  animation: fadeUp 400ms ease-out 100ms forwards;
+  opacity: 0;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);

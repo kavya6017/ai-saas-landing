@@ -17,13 +17,13 @@ export default function Home() {
 
       <main className="bg-arctic-powder">
         <section id="hero" aria-label="Hero" className="flex flex-col items-center text-center px-6 py-24 bg-nocturnal-expedition text-arctic-powder">
-          <h1 className="font-mono text-4xl md:text-6xl font-bold max-w-3xl leading-tight">
+          <h1 className="font-mono text-4xl md:text-6xl font-bold max-w-3xl leading-tight entrance">
             Automate Everything. <span className="text-forsythia">Build Faster</span> with AI.
           </h1>
-          <p className="font-sans text-lg mt-6 max-w-xl text-mystic-mint">
+          <p className="font-sans text-lg mt-6 max-w-xl text-mystic-mint entrance-delay-1">
             Placeholder subtext describing the AI automation platform and its core value proposition.
           </p>
-          <a href="#pricing" className="mt-8 bg-deep-saffron text-oceanic-noir font-semibold px-8 py-3 rounded-full hover:opacity-90 transition-opacity">
+          <a href="#pricing" className="mt-8 bg-deep-saffron text-oceanic-noir font-semibold px-8 py-3 rounded-full hover:opacity-90 transition-opacity entrance-delay-1">
             Start Free Trial
           </a>
         </section>

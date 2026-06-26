@@ -3,6 +3,12 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --arctic-powder: #F1F6F4;
+  --forsythia: #FFC801;
+  --nocturnal-expedition: #114C5A;
+  --mystic-mint: #D9E8E2;
+  --deep-saffron: #FF9932;
+  --oceanic-noir: #172B36;
 }
 
 @theme inline {
@@ -10,6 +16,12 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --color-arctic-powder: var(--arctic-powder);
+  --color-forsythia: var(--forsythia);
+  --color-nocturnal-expedition: var(--nocturnal-expedition);
+  --color-mystic-mint: var(--mystic-mint);
+  --color-deep-saffron: var(--deep-saffron);
+  --color-oceanic-noir: var(--oceanic-noir);
 }
 
 @media (prefers-color-scheme: dark) {
